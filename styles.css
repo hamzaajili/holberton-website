@@ -1,0 +1,66 @@
+#holberton-logo {
+    height: 50px;
+    width: 160px;
+  }
+  
+header div {
+    text-align: right;
+  }
+  
+  .header-button {
+    padding: 5px 10px;
+    color: blue;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+  
+  article {
+    flex: 2;
+    overflow-y: auto;
+  }
+  aside {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .body-title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+  }
+  
+  #tweets-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 600px) {
+    #tweets-content {
+      justify-content: center !important;
+    }
+  }
+  
+  .twitter-tweet {
+    max-width: 300px !important;
+    margin: 5px;
+  }
+  
+  
+  .project-container {
+    align-items: center;
+    border: 1px solid #a1a1a1;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  
